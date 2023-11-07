@@ -6,6 +6,9 @@ I referenced several of our VBA class lessons to help me through this code. I ne
 This Stack Overflow page helped me determine the proper formula to format my decimal values into percentages
 https://stackoverflow.com/questions/42844778/vba-for-each-cell-in-range-format-as-percentage
 
+This Statology page showed me how to AutoFit cells for better formatting
+https://www.statology.org/vba-autofit-columns/#:~:text=You%20can%20use%20the%20AutoFit,columns%20in%20an%20Excel%20spreadsheet.&text=This%20particular%20macro%20automatically%20adjusts,longest%20cell%20in%20each%20column.
+
 These links helped me find out how to determine min/max in a range. They also showed me how to write out the code, and understand the proper syntax to use. Especially for referencing the range effectively. I experienced a lot of trial and error, before landing on "ws.Range("K2:K" & last_row_yearly_change)". 
 https://www.wallstreetmojo.com/vba-max/
 https://learn.microsoft.com/en-us/office/vba/api/excel.worksheetfunction
