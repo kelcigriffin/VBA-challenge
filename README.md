@@ -12,7 +12,10 @@ https://www.statology.org/vba-autofit-columns/#:~:text=You%20can%20use%20the%20A
 These links helped me find out how to determine min/max in a range. They also showed me how to write out the code, and understand the proper syntax to use. Especially for referencing the range effectively. I experienced a lot of trial and error, before landing on "ws.Range("K2:K" & last_row_yearly_change)". 
 https://www.wallstreetmojo.com/vba-max/
 https://learn.microsoft.com/en-us/office/vba/api/excel.worksheetfunction
+
 https://learn.microsoft.com/en-us/office/vba/api/excel.range.insert
+
 https://learn.microsoft.com/en-us/office/vba/excel/concepts/cells-and-ranges/refer-to-named-ranges#worksheet-specific-named-range
+
 Referring to my range as "ws.Range("K2:K" & last_row_yearly_change)" is not my original idea. Variable names are mine, and are consistent with my script, but this way of referencing column and rows came from the following repository:
 https://github.com/shrawantee/VBA-Scripting---Stock-Market-Analysis/blob/master/HW2_Challenge_DS.vbs
