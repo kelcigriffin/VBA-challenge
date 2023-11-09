@@ -16,6 +16,3 @@ https://learn.microsoft.com/en-us/office/vba/api/excel.worksheetfunction
 https://learn.microsoft.com/en-us/office/vba/api/excel.range.insert
 
 https://learn.microsoft.com/en-us/office/vba/excel/concepts/cells-and-ranges/refer-to-named-ranges#worksheet-specific-named-range
-
-Referring to my range as "ws.Range("K2:K" & last_row_yearly_change)" is not my original idea. Variable names are mine, and are consistent with my script, but this way of referencing column and rows came from the following repository:
-https://github.com/shrawantee/VBA-Scripting---Stock-Market-Analysis/blob/master/HW2_Challenge_DS.vbs
